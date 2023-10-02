@@ -67,3 +67,7 @@ Throws an error because the cat command argument(s) must be a file path.
 Hello World!
 ```
 Prints contents of the file.
+
+---
+
+[Back to homepage](https://avvyxx.github.io/cse15l-lab-reports/)
