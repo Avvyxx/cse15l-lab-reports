@@ -1,15 +1,10 @@
-Hello, world!
+# CSE 15L Lab Reports
 
-__Hello World__
-
-# Heading 1
-## Heading 2
-
-[This is a link][1]
-
-[1]: https://github.com/Avvyxx
+[Link to GitHub repo][1]
 
 ---
 
-![Image](https://avatars.githubusercontent.com/u/122862777?v=4)
-> Image
+* [Lab Report 1][2]
+
+[1]: https://github.com/Avvyxx/cse15l-lab-reports
+[2]: https://avvyxx.github.io/cse15l-lab-reports/lab-report-1
