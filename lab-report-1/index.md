@@ -1,6 +1,6 @@
 # Lab Report 1: Remote Access and FileSystem
 
-## Command: cd
+## Command: `cd`
 
 ### No arguments
 ```console
@@ -22,7 +22,7 @@ bash: cd: lecture1/Hello.java: Not a directory
 ```
 Throws an error since the cd command argument must be a directory path.
 
-## Command: ls
+## Command: `ls`
 
 ### No arguments
 ```console
@@ -45,7 +45,7 @@ Hello.java
 ```
 Prints the name of the file.
 
-## Command: cat
+## Command: `cat`
 
 ### No arguments
 ```console
