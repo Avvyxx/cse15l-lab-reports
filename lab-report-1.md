@@ -9,8 +9,16 @@ For this lab, I will use the `pwd` command for every display to show the current
 [user@sahara ~]$ pwd
 /home
 [user@sahara ~]$ cd
+[user@sahara ~]$
 ```
-This seems to do nothing, however, it changes into the users home directory, which we are already in, `/home`.
+This seems to do nothing, however, it changes into the users home directory, which we are already in, `/home`. Here is how its supposed to be used:
+```console
+[user@sahara ~]$ pwd
+/home
+[user@sahara ~]$ cd lecture1/messages
+[user@sahara ~/lecture1/messages]$ cd
+[user@sahara ~]$
+```
 
 ### Directory path as argument
 ```console
