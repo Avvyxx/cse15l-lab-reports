@@ -88,3 +88,7 @@ Logging onto ieng6 when my computer is authorized produces this terminal interac
 # Part 3
 
 Part of lab 3 was sending the public ssh key from our personal machines to the remote ieng6 machine. Rather than simply copying and pasting the contents of our machine's public key into the `authorized_keys` file in ieng6, we were encouraged to use a new command. This command, `scp`, is similar to the `cp` command which users can use to copy file contents from one location to another locally. However, `scp` sends the contents of a local file to a remote machine, in this case we sent the contents of our public key to the necessary location in ieng6. This was an interesting thing to learn and will be useful in the future.
+
+---
+
+[Back to homepage](https://avvyxx.github.io/cse15l-lab-reports/)
