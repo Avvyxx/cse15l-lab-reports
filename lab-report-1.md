@@ -83,7 +83,7 @@ World!
 ```
 When provided with no arguments the program will output any input provided to it indefinitely. The program will not close on it's own so you would have to end it with `ctrl + c`.
 
-### Directory path as arugment
+### Directory path as argument
 ```console
 [user@sahara ~]$ pwd
 /home
