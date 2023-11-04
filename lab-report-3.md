@@ -63,7 +63,7 @@ docsearch/
 ```
 Where my working directory will be `docsearch`.
 
-### `-i` or `--ignore-case`
+## `-i` or `--ignore-case`
 Causes `grep` to ignore casing on the pattern to search.
 ```console
 [user@ieng6]:docsearch:1$ grep [-i / --ignore-case] [PATTERN] [FILES...]
@@ -85,7 +85,7 @@ Here I passed in an all lowercase string and the pattern matched a line with the
 
 This option is helpful if you want to find a string which you might not know the exact casing of. I personally have used this many times to match some sort of hardware ID where I don't want to have to worry about what exactly the casing was.
 
-### `-r` or `--recursive`
+## `-r` or `--recursive`
 Causes `grep` to recursively search through all files in a specified directory for the given pattern.
 ```console
 [user@ieng6]:docsearch:1$ grep [-r / --recursive] [PATTERN] [FILES...]
@@ -117,7 +117,7 @@ Here `grep` recursively searches through the `technical/biomed` directory for th
 
 This option is useful for searching through a large amount of files, such as in the `technical` directory and its sub-directories, for a pattern.
 
-### `-l` or `--files-with-matches`
+## `-l` or `--files-with-matches`
 Instead of outputing specific lines and each file name of the file they come from, `grep` will output only the names of the files where the pattern was matched.
 ```console
 [user@ieng6]:docsearch:1$ grep [-l / --files-with-matches] [PATTERN] [FILES...]
@@ -147,7 +147,7 @@ The output is only the names of the files in which the pattern was matched in th
 
 The `-l` option is useful when you want to find only the names of files, and don't necessarily want a long block of output which can be difficult to read. This can also be useful to use with other commands such as passing in each of the file names to another `grep` command to look for more specific patterns.
 
-### `-v` or `--invert-match`
+## `-v` or `--invert-match`
 Instead of selecting matching lines, `grep` will select non-matching lines.
 ```console
 [user@ieng6]:docsearch:1$ grep [-v / --invert-match] [PATTERN] [FILES...]
