@@ -47,7 +47,7 @@ In the original `ArrayExamples.reverseInPlace` it iterated through the entire ar
 
 # Part 2: Researching `grep` command-line options
 
-Its important to note that the examples I provide correspond to the following file structure:
+It is important to note that the examples I provide correspond to the following file structure:
 ```
 docsearch/
   |- [files...]
@@ -169,6 +169,7 @@ Here I used the `-i` and `--files-without-match` options in combination. This ou
 
 This option is useful if there are multiple instances of a pattern in a few files which you want to exclude, such as in the example above.
 
+## Sources
 I found all the information above for each option through the `man` command.
 
 ---
