@@ -168,3 +168,7 @@ some more stuff here
 some even more stuff here
 
 I found all the information above for each option through the `man` command.
+
+---
+
+[Back to homepage](https://avvyxx.github.io/cse15l-lab-reports/)
