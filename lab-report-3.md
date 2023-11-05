@@ -147,25 +147,27 @@ The output is only the names of the files in which the pattern was matched in th
 
 The `-l` option is useful when you want to find only the names of files, and don't necessarily want a long block of output which can be difficult to read. This can also be useful to use with other commands such as passing in each of the file names to another `grep` command to look for more specific patterns.
 
-## `-v` or `--invert-match`
-Instead of selecting matching lines, `grep` will select non-matching lines.
+## `-L` or `--files-without-match`
+Instead of outputing matching lines for each file, `grep` will output filenames with no matches of the provided pattern. 
 ```console
-[user@ieng6]:docsearch:1$ grep [-v / --invert-match] [PATTERN] [FILES...]
+[user@ieng6]:docsearch:1$ grep [-L / --files-without-match] [PATTERN] [FILES...]
 ```
 
 > Example 1:
 ```console
-[user@ieng6]:docsearch:1$ grep -v
+[user@ieng6]:docsearch:1$ grep -L "" technical/plos
+[user@ieng6]:docsearch:2$
 ```
-some stuff here
+Here `""` would usually match every pattern as it is a substring of every string, and because of this there is no output.
 
 > Example 2:
 ```console
-[user@ieng6]:docsearch:1$ grep --invert-match
+[user@ieng6]:docsearch:1$ grep -i --files-without-match "new york" technical/911report/*
+technical/911report/chapter-11.txt
 ```
-some more stuff here
+Here I used the `-i` and `--files-without-match` options in combination. This output is all the file filenames in `technical/911report` which do not include the case insensitive pattern of New York.
 
-some even more stuff here
+This option is useful if there are multiple instances of a pattern in a few files which you want to exclude, such as in the example above.
 
 I found all the information above for each option through the `man` command.
 
