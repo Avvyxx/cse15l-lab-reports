@@ -155,7 +155,7 @@ Instead of outputing matching lines for each file, `grep` will output filenames 
 
 > Example 1:
 ```console
-[user@ieng6]:docsearch:1$ grep -L "" technical/plos
+[user@ieng6]:docsearch:1$ grep -L "" technical/plos/*
 [user@ieng6]:docsearch:2$
 ```
 Here `""` would usually match every pattern as it is a substring of every string, and because of this there is no output.
