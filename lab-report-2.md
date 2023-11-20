@@ -1,4 +1,8 @@
-# Part 1
+# Lab Report 2: Servers and SSH Keys
+
+The purpose of this lab was to construct a web server that allows users to add messages to a website using URL paths and queries.
+
+## Part 1
 
 > StringServer.java:
 
