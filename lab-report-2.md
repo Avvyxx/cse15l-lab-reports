@@ -75,7 +75,7 @@ A new `URI` object is created from the request URL string, which is `http://ieng
 
 Similarly, a new `URI` object is created from the request URL, which is `http://ieng6-202.ucsd.edu:4000/add-messages?s=World`, and is passed to the `handleRequest` method in the `Handler` object. Again, within the `handleRequest` method the methods `getPath` and `getQuery` are called on the `URI` object and return the path and query, respectively, as strings. The `equals` method is called on the path to check whether it is correct, and it is. The if statement within the if statement checks whether the query is valid or not, and since it is the `appendMessages` method is called with the string after the = sign in the query as the argument and appends the string `"World"` to the `messages` string array. After this, the `formatMessages` method is called and returns the contents of the `messages` array as a formatted list, the contents being `{"Hello", "World"}`.
 
-# Part 2
+## Part 2
 
 ![Private key](images/private_key.png)
 
@@ -89,7 +89,7 @@ The `authorized_keys` file located at `/home/linux/ieng6/cs15lfa23/cs15lfa23cg/.
 
 Logging onto ieng6 when my computer is authorized produces this terminal interaction.
 
-# Part 3
+## Part 3
 
 Part of lab 3 was sending the public ssh key from our personal machines to the remote ieng6 machine. Rather than simply copying and pasting the contents of our machine's public key into the `authorized_keys` file in ieng6, we were encouraged to use a new command. This command, `scp`, is similar to the `cp` command which users can use to copy file contents from one location to another locally. However, `scp` sends the contents of a local file to a remote machine, in this case we sent the contents of our public key to the necessary location in ieng6. This was an interesting thing to learn and will be useful in the future.
 
